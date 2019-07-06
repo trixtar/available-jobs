@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "description": "Comfortable with modern JS stack, experience with React.",
+    "employment_type": "full_time"
+  },
+  {
+    "id": 2,
+    "title": "Web Developer WordPress (m/f/d)",
+    "description": "Several years of professional experience as a web developer. Very good English skills.",
+    "employment_type": "part_time"
+  },
+  {
+    "id": 3,
+    "title": "(Junior) Frontend Developer in App Agency",
+    "description": "Fluent in English or German. 1 to 3 years’ experience with programming web apps using Angular or React and Redux.",
+    "employment_type": "full_time"
+  },
+  {
+    "id": 4,
+    "title": "Polish Content Developer",
+    "description": "Fluent/Excellent English speaker. Demonstrated content management experience within the Web, IT, localization or content industry.",
+    "employment_type": "contract",
+    "contract_type": "Fixed-term contract position for 24 months with the option of extension."
+  },
+  {
+    "id": 5,
+    "title": "Ruby on Rails developer - male, female, diverse",
+    "description": "Experience in web development with Ruby on Rails. Fluent English, speaking German or Swedish is a plus.",
+    "employment_type": "full_time"
+  },
+  {
+    "id": 6,
+    "title": "AWS Engineer with Node or Java",
+    "description": "Amazon Web Services (or other PaaS):. All applicants must be fluent in English (German is optional).",
+    "employment_type": "full_time"
+  }
+]
