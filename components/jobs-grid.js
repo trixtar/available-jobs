@@ -5,8 +5,6 @@ import allJobs from '../data/jobs.json';
 
 export default class JobsGrid extends Component {
   render() {
-    console.log(allJobs);
-
     return (
       <Grid container spacing={2}>
         {allJobs.map(job => (

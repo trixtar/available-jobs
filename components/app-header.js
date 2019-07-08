@@ -1,21 +1,19 @@
-import React from 'react';
-// import Link from 'next/link';
+import Link from 'next/link';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import Logo from './logo';
 
 const useStyles = makeStyles(theme => ({
+  logo: {
+    fontSize: '2.4rem',
+    marginRight: theme.spacing(2),
+    cursor: 'pointer',
+  },
   appBar: {
     position: 'sticky',
-  },
-  appTitle: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(1) * -1,
   },
 }));
 
@@ -25,10 +23,10 @@ const AppHeader = () => {
   return (
     <AppBar className={classes.appBar}>
       <Toolbar>
-        <Typography className={classes.appTitle} variant='h5' component='h1'>IT Jobs</Typography>
-        <IconButton className={classes.menuButton} edge='start' color='inherit' aria-label='Menu'>
-          <MenuIcon />
-        </IconButton>
+        <Link href='/'>
+          <Logo className={classes.logo} />
+        </Link>
+        <Typography variant='h5' component='h1'>IT Jobs</Typography>
       </Toolbar>
     </AppBar>
   )
